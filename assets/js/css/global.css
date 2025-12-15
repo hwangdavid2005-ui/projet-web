@@ -1,0 +1,477 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face{
+    font-family: "birthstone";
+    src: url(../fonts/Birthstone-Regular.ttf);
+}
+body{
+    font-family: "birthstone";
+    padding-right: 10%;
+    padding-left: 10%;
+    background-color: rgb(203, 240, 174);
+    font-size: x-large;
+}
+
+section{
+    margin: 0 auto;
+    height: 120vh;
+	max-width: 900px;
+	min-width: 500px;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+#footer {
+    background-color: #1f2e1f;
+    color: #ffffff;
+    padding: 40px 20px 20px;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 220px;
+}
+
+.footer-section h3 {
+    margin-bottom: 15px;
+    font-size: 18px;
+    border-bottom: 2px solid #9acd32;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.footer-section p {
+    margin: 8px 0;
+    font-size: 14px;
+}
+
+.icon {
+    margin-right: 8px;
+}
+
+.social-icons a {
+    font-size: 22px;
+    margin-right: 12px;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+.social-icons a:hover {
+    transform: scale(1.2);
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 13px;
+    opacity: 0.8;
+}
+/* HAUT DE PAGE==================================================================*/
+
+header{
+    display: flex;
+    justify-content: center;
+    background-image:url(../image/white-floral-background-decorated-with-border-hanging-blooming-bougainvillea-branches-realistic-vector-illustration.png) ;
+    background-repeat: no-repeat;
+	background-size: cover;
+}
+
+header h1{
+    font-size: 50px;
+}
+nav{
+    height: 30px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav li{
+    display: inline;
+    padding-right: 50px;
+   
+}
+
+nav ul{
+    text-align: center;
+    background-color: rgb(251, 209, 255);
+    font-size: 40px;
+}
+
+nav li:hover{
+	background-color: black;
+	color: #808;
+}
+
+a{
+    text-decoration: none;
+    font-style: oblique;
+}
+
+/* PAGE D'ACCUEIl=================================================================*/
+
+#Accueil{
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+}
+
+#titre{
+    padding-top: 5%;
+}
+#info0{
+    padding-top: 3%;
+}
+#info1{
+    padding-top: 5%;
+}
+#visage{
+    padding-top: 5%;
+}
+hr{
+    border: 3px;
+    color: aliceblue;
+}
+
+#bio_img{
+    display: flex;
+    padding-top: 10%;
+}
+
+#img_accueil{
+    padding-left: 2%;
+    width: 350px;
+    height: 420px;
+}
+
+#bio_courte{
+    padding-top: 10%;
+    padding-left: 10%;
+    width: 70%;
+    font-size: x-large;
+}
+
+
+
+#img_intro{
+    width: 1600px;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+/*Embouchement========================================================================*/
+
+#Inscription{
+    background-color: rgb(203, 240, 174);
+    padding-top: 100px;
+}
+
+
+fieldset.tout{
+    width: 750px;
+    background-color:rgb(87, 119, 88);
+    border: none;
+    position: absolute;
+    right: 35%;
+
+}
+
+fieldset fieldset{
+    display: flex;
+    flex-direction: column;
+}
+
+fieldset:nth-child(1) fieldset:nth-child(1){
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 40%;
+}
+
+fieldset:nth-child(1) fieldset:nth-child(1) input, select{
+width: 320px;
+margin-bottom: 2%;
+}
+
+fieldset:nth-child(1) fieldset:nth-child(2){
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 25%;
+}
+
+fieldset:nth-child(1) fieldset:nth-child(3){
+    flex-direction: column;
+    align-items: flex-end;
+   padding-right: 40%;
+}
+
+fieldset:nth-child(1) fieldset:nth-child(3) input, select{
+width: 320px;
+margin-bottom: 2%;
+}
+
+/*Horaire======================================================================*/
+
+#Horaire{
+    background-color: rgb(203, 240, 174);
+}
+
+caption{
+        background-color: rgb(255, 204, 251);
+
+}
+.tableau{
+
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 0 auto; 
+
+}
+
+
+#table1{
+    width: 650px;
+    height: 550px;
+
+}
+
+#table2{
+    width: 650px;
+    height: 550px;
+}
+
+ table{
+    border-collapse: collapse;;
+    margin: 0 auto;
+        }
+
+#vide2{
+    background-color: #ffffffd2; 
+}          
+
+#ouvert{
+    background-color: rgb(255, 204, 251);
+    color: rgb(0, 0, 0);
+}
+#lieu{
+	color: rgb(0, 0, 0);
+    background-color: rgb(255, 204, 251);
+}
+
+
+td,th{
+    border: 1px solid black;
+    width: 10%;
+    text-align: center;
+}
+
+td[scope="titre"]{
+    background-color: rgb(255, 204, 251);
+}
+th[scope="col"]{
+    color: #808;
+    background-color: rgb(192, 192, 192);
+}
+th[scope ="row"]{
+    color: #808;
+    background-color: rgb(192, 192, 192);
+}
+
+th[scope ="vide"]{
+	background-color: rgb(192, 192, 192);
+}
+
+
+
+
+
+
+tfoot td{
+    text-align: center;
+	color: #808;
+    background-color: #ffffffd0;
+}
+/*ARTICLE===========================================================================*/
+
+#Article{
+    background-color: rgb(203, 240, 174);
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#articleLayout{
+    display: flex;
+    gap: 20px;
+}
+
+#articleTexte{
+    padding-top: 20px;
+}
+
+#articleTexte p{
+    width: 500px;
+    text-align: justify;
+}
+p{
+    text-align: center;
+    width: 200px;
+}
+
+#twoDiv{
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+   
+}
+
+#divArticle1{
+    display: flex;
+}
+
+#divArticle2{
+    display: flex;
+}
+
+#ArticleTexte1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+
+#ArticleTexte2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+
+#ArticleTexte3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+
+#ArticleTexte4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+
+#ArticleTexte5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+
+#ArticleTexte6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+
+#irl{
+    width: 100px;
+    height: 130px;
+}
+
+
+/*GALERIE=============================================================================*/
+
+#Galerie{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(203, 240, 174);
+    padding-top: 50px;
+}
+#galeriePlan{
+    padding-top: 100px;
+    padding-right: 100px;
+
+    width: 1700px;
+    height: 1100px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#plan{
+    width: 400px;
+    height: 480px; 
+}
+
+#dessin{
+    width: 130px;
+    height: 100px;   
+}
+
+
+.imgTransition {
+  position: relative;
+  overflow: hidden;
+}
+
+.imgTransition img {
+  width: 400px;
+  display: block;
+
+}
+
+.imgInfo {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 400px;
+  height: 100%;
+
+  display: flex;       
+  align-items: center; 
+  justify-content: center;
+
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+
+  transform: translateY(100%);
+  transition: transform 0.4s;
+}
+
+.imgInfo p {
+    padding: 15px;
+    text-align: center;
+}
+
+.imgTransition:hover .imgInfo {
+  transform: translateY(0);
+}
+
+
+    
+
+
+
